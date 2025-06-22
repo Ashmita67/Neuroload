@@ -1,0 +1,52 @@
+# ---------------------------------------
+# Python
+# ---------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Byte-compiled / optimized / DLL files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ---------------------------------------
+# Virtual Environments
+# ---------------------------------------
+env/
+venv/
+ENV/
+
+# ---------------------------------------
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# ---------------------------------------
+# VS Code
+.vscode/
+
+# ---------------------------------------
+# Data & Model Artifacts
+*.csv
+*.tsv
+*.npy
+*.npz
+*.joblib
+*.pkl
+*.h5
+*.parquet
+
+# ---------------------------------------
+# Logs & System Files
+*.log
+*.DS_Store
+Thumbs.db
+
+# ---------------------------------------
+# Other
+*.bak
+*.swp
