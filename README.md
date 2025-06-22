@@ -3,7 +3,7 @@
 **NeuroLoad** is a machine learning system that detects cognitive load from multi-channel EEG signals.  
 It uses spectral and statistical features from EEG windows to classify mental fatigue, helping in health monitoring, human–computer interaction, and workload assessment.
 
-> 🔍 Achieved **85% accuracy** using a Random Forest classifier on the UCI EEG Eye State dataset.  
+> 🔍 Achieved **70% accuracy** using a Random Forest classifier on the UCI EEG Eye State dataset.  
 > ✅ Includes a Streamlit demo app for real-time load detection from uploaded EEG CSV files.
 
 ---
@@ -16,14 +16,6 @@ It uses spectral and statistical features from EEG windows to classify mental fa
 - 📊 Model explainability using SHAP plots
 - 🌐 Interactive Streamlit web app for prediction and visualization
 - 🗂 Clean modular structure for easy reproducibility
-
----
-
-## 🚀 Demo
-
-### ▶ Run the Web App:
-```bash
-streamlit run app/app.py
 
 ---
 ### Dataset Used
@@ -39,21 +31,21 @@ Details:
 Preprocessing: Bandpass filtering (1–45 Hz), windowing (2s with 50% overlap)
 Feature Engineering: Bandpower (theta, alpha, beta), mean, variance, skew, kurtosis
 Modeling: Random Forest classifier with 400 trees
-Evaluation: 85% test accuracy, confusion matrix, classification report
+Evaluation: 70% test accuracy, confusion matrix, classification report
 Explainability: SHAP summary plots highlight important EEG bands/channels
 
 ---
-### 🧑‍💻 How to Run
+### 🧑‍💻 How to Run 
 # 1. Clone the repo
 git clone https://github.com/yourhandle/NeuroLoad.git
 cd NeuroLoad
 # 2. Setup virtual environment
 python -m venv env
-source env/bin/activate  # Windows: env\Scripts\activate
+source env/Scripts/activate
 # 3. Install dependencies
 pip install -r requirements.txt
 # 4. Run the app
-streamlit run app/app.py
+streamlit run app.py
 ---
 
 ## Future Work
@@ -67,3 +59,5 @@ Add LSTM/GRU-based deep models for temporal learning
 UCI Machine Learning Repository for the EEG dataset
 Streamlit & SHAP community
 Python libraries that made this possible
+
+---
