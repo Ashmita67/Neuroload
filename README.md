@@ -36,16 +36,15 @@ Explainability: SHAP summary plots highlight important EEG bands/channels
 
 ---
 ## 🧑‍💻 How to Run 
- 1. Clone the repo
-git clone https://github.com/Ashmita67/Neuroload
-cd NeuroLoad
- 2. Setup virtual environment
-python -m venv env
-source env/Scripts/activate
- 3. Install dependencies
-pip install -r requirements.txt
- 4. Run the app
-streamlit run app.py
+ 1. Clone the repo git clone https://github.com/Ashmita67/Neuroload
+ 2. cd NeuroLoad
+ 3. Setup virtual environment
+    python -m venv env
+    source env/Scripts/activate
+ 4. Install dependencies
+    pip install -r requirements.txt
+ 5. Run the app
+    streamlit run app.py
 ---
 
 ## Future Work
