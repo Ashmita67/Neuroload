@@ -35,16 +35,16 @@ Evaluation: 70% test accuracy, confusion matrix, classification report
 Explainability: SHAP summary plots highlight important EEG bands/channels
 
 ---
-### 🧑‍💻 How to Run 
-# 1. Clone the repo
+## 🧑‍💻 How to Run 
+ 1. Clone the repo
 git clone https://github.com/yourhandle/NeuroLoad.git
 cd NeuroLoad
-# 2. Setup virtual environment
+ 2. Setup virtual environment
 python -m venv env
 source env/Scripts/activate
-# 3. Install dependencies
+ 3. Install dependencies
 pip install -r requirements.txt
-# 4. Run the app
+ 4. Run the app
 streamlit run app.py
 ---
 
