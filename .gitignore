@@ -1,5 +1,5 @@
 # ---------------------------------------
-# Python
+# Python cache and compiled files
 # ---------------------------------------
 __pycache__/
 *.py[cod]
@@ -10,6 +10,8 @@ __pycache__/
 # Byte-compiled / optimized / DLL files
 *.egg
 *.egg-info/
+*.manifest
+*.spec
 dist/
 build/
 .eggs/
@@ -20,9 +22,10 @@ build/
 env/
 venv/
 ENV/
+env.bak/
 
 # ---------------------------------------
-# Jupyter Notebook Checkpoints
+# Jupyter Notebooks
 .ipynb_checkpoints/
 
 # ---------------------------------------
@@ -30,7 +33,10 @@ ENV/
 .vscode/
 
 # ---------------------------------------
-# Data & Model Artifacts
+# Data & Model Artifacts (Keep these ignored!)
+data/raw/
+data/processed/
+models/
 *.csv
 *.tsv
 *.npy
@@ -41,12 +47,20 @@ ENV/
 *.parquet
 
 # ---------------------------------------
-# Logs & System Files
+# Reports & Figures
+reports/
+*.png
+*.pdf
+*.svg
+
+# ---------------------------------------
+# Logs, Temporary, OS and System Files
 *.log
 *.DS_Store
 Thumbs.db
-
-# ---------------------------------------
-# Other
 *.bak
 *.swp
+
+# ---------------------------------------
+# Streamlit Cache
+.streamlit/
